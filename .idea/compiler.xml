@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dream-shop-api" />
+        <module name="dream-shop-basic" />
+        <module name="dream-shop-service" />
+        <module name="dream-shop-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dream-shop-api" target="1.8" />
+      <module name="dream-shop-basic" target="1.8" />
+      <module name="dream-shop-service" target="1.8" />
+      <module name="dream-shop-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
